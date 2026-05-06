@@ -20,7 +20,7 @@ export default function Header() {
           {/* Logo/Brand */}
           <Link 
             href="/" 
-            className="flex-shrink-0 text-2xl sm:text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+            className="shrink-0 text-2xl sm:text-3xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
           >
             MyApp
           </Link>

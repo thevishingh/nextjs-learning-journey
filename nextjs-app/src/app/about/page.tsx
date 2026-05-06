@@ -3,12 +3,12 @@ import book from "public/book.jpg";
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <div className="min-h-screen bg-linear-to-br from-gray-50 to-gray-100">
       {/* Hero Section */}
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-12">
-            <h1 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
+            <h1 className="text-4xl sm:text-5xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
               About Us
             </h1>
 
@@ -49,7 +49,7 @@ export default function AboutPage() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 text-center">
             Featured Content
           </h2>
-          <div className="relative w-full h-96 sm:h-[500px] rounded-2xl overflow-hidden shadow-xl">
+          <div className="relative w-full h-96 sm:h-125 rounded-2xl overflow-hidden shadow-xl">
             <Image 
               src={book} 
               alt="book cover" 
